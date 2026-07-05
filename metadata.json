@@ -1,0 +1,6 @@
+{
+  "name": "Brew & Beans Coffee House",
+  "description": "A premium, warm, and elegant website for Brew & Beans Coffee House, featuring handcrafted coffees, an interactive signature menu, reservations, and a custom light/dark theme.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
