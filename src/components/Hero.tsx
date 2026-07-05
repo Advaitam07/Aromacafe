@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { ChevronRight, Sparkles, Coffee, Flame } from 'lucide-react';
-
-const heroImg = '/src/assets/images/hero_coffee_banner_1783245205606.jpg';
+import { Sparkles, Coffee } from 'lucide-react';
+import heroImg from '../assets/images/hero_coffee_banner_1783245205606.jpg';
 
 interface HeroProps {
   onViewMenu: () => void;

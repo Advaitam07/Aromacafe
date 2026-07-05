@@ -1,8 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { Users, Coffee, Calendar } from 'lucide-react';
-
-const cafeInteriorImg = '/src/assets/images/cafe_interior_1783245222593.jpg';
+import cafeInteriorImg from '../assets/images/cafe_interior_1783245222593.jpg';
 
 export default function About() {
   return (

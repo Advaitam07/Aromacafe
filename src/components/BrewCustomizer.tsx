@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
-import { 
+import React, { useState } from 'react';
+import { motion } from 'motion/react';
+import {
   Coffee, 
   Sparkles, 
   Flame, 
@@ -12,7 +12,8 @@ import {
   Cookie,
   ShoppingCart
 } from 'lucide-react';
-import { MenuItem, Category } from '../types';
+import { MenuItem } from '../types';
+import customBrewImage from '../assets/images/todays_special_drink_1783245236185.jpg';
 
 // Constants for customizable options
 const DRINK_BASES = [
@@ -118,7 +119,7 @@ export default function BrewCustomizer({ onAddToCart }: BrewCustomizerProps) {
       description: description,
       price: totalPrice,
       category: 'Latte', // Fit under Latte category for easy storage/rendering
-      image: '/src/assets/images/todays_special_drink_1783245236185.jpg', // Use high-quality special asset
+      image: customBrewImage,
       isSpecial: true,
       tag: 'Custom Lab'
     };

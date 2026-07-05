@@ -1,9 +1,7 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { ShoppingBag } from 'lucide-react';
 import { MenuItem } from '../types';
-
-const todaysSpecialImg = '/src/assets/images/todays_special_drink_1783245236185.jpg';
+import todaysSpecialImg from '../assets/images/todays_special_drink_1783245236185.jpg';
 
 interface SpecialProps {
   onAddToCart: (item: MenuItem) => void;

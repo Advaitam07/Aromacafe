@@ -1,4 +1,5 @@
 import { MenuItem, Testimonial, GalleryItem } from './types';
+import classicEspressoImage from './assets/images/classic_espresso_1783255986969.jpg';
 
 export const MENU_ITEMS: MenuItem[] = [
   // --- ESPRESSO ---
@@ -8,7 +9,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Double shot of our signature house blend with a thick, golden crema.',
     price: 3.25,
     category: 'Espresso',
-    image: '/src/assets/images/classic_espresso_1783255986969.jpg',
+    image: classicEspressoImage,
     tag: 'Strong'
   },
   {
